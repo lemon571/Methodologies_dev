@@ -1,5 +1,5 @@
 const { generateGeometricProgression } = require("./progress.js");
-const {checkAnswer} = require("./check-answer.js");
+const {handleAnswer} = require("./check-answer.js");
 const prompt = require("prompt-sync")();
 
 function playProgressionGame(userName) {
@@ -11,11 +11,7 @@ function playProgressionGame(userName) {
         console.log(`Round: ${round + 1}\n Question: ${progression.join(" ")}`);
         const userAnswer = parseInt(prompt());
         
-        if (checkAnswer(userAnswer, missingValue)) {
-            console.log("Correct!");
-        } else {
-            console.log(`Your answer: ${userAnswer}. It is wrong answer ;( Correct answer was ${missingValue}. Let's try again, ${userName}!`);
-        }
+        handleAnswer(userAnswer, missingValue, userName);
     }
 }
 
