@@ -8,7 +8,6 @@ function handleAnswer(userAnswer, correctAnswer, userName) {
     } else {
         console.log(`Your answer: ${userAnswer}.\n It is wrong answer ;(\n Correct answer was ${correctAnswer}. Let's try again, ${userName}!`);
     }
-
 }
 
 module.exports = { handleAnswer };
