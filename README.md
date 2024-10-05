@@ -1,4 +1,6 @@
-Запуск и демонстрацией различных исходов:
+Для старта игры используйте команду node brain-games.js
+
+Asciinema:
 
 
 https://github.com/user-attachments/assets/e71af9e1-2606-4741-8cf4-9259e6346519
