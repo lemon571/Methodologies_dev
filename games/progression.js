@@ -1,7 +1,7 @@
 function generateGeometricProgression() {
-    const start = Math.floor(Math.random() * 10) + 1; // Начальный элемент
-    const ratio = Math.floor(Math.random() * 5) + 1; // Задаем шаг прогрессии
-    const length = 10; // Длина прогрессии
+    const start = Math.floor(Math.random() * 10) + 1;
+    const ratio = Math.floor(Math.random() * 5) + 1;
+    const length = 10;
     const progression = [];
 
     for (let i = 0; i < length; i++) {
@@ -10,7 +10,7 @@ function generateGeometricProgression() {
 
     const missingIndex = Math.floor(Math.random() * length);
     const missingValue = progression[missingIndex];
-    progression[missingIndex] = '..'; // Заменяем пропущенное значение
+    progression[missingIndex] = '..'; 
 
     return { progression, missingValue };
 }
