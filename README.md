@@ -1,4 +1,6 @@
-Для старта игры используйте команду node brain-games.js
+# Brain-games
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fa6210fc32de0b6ac60d/test_coverage)](https://codeclimate.com/github/lemon571/Methodologies_dev/test_coverage)
+Для старта игры используйте команду node brain-games.js<br>
 Для выхода из игры используйте команду exit
 
 Asciinema:
