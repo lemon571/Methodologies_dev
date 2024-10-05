@@ -1,5 +1,5 @@
 const { greetUser } = require("../scr/cli.js")
-const { playLCMGame } = require("../games/brain-scm.js")
+const { playNokGame } = require("../games/brain-scm.js")
 const { playProgressionGame } = require("../games/brain-progression.js")
 const prompt = require("prompt-sync")();
 
@@ -10,7 +10,7 @@ function main() {
         const defense = prompt();
         
         if (defense === '1') {
-            playLCMGame(userName);
+            playNokGame(userName);
         } else if (defense === '2') {
             playProgressionGame(userName);
         } else if (defense === 'exit') {
