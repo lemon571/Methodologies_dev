@@ -1,4 +1,4 @@
-const { generateGeometricProgression } = require("./progress.js");
+const { generateGeometricProgression } = require("./progression.js");
 const {handleAnswer} = require("./check-answer.js");
 const prompt = require("prompt-sync")();
 
