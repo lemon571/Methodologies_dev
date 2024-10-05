@@ -8,7 +8,6 @@ function main() {
     while (true) {
         console.log("Choose a game:\n1. Find the smallest common multiple of given numbers.\n2. What number is missing in the progression?");
         const defense = prompt();
-        
         if (defense === '1') {
             playNokGame(userName);
         } else if (defense === '2') {
