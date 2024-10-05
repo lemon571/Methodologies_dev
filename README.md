@@ -6,7 +6,7 @@
 Asciinema:
 
 
-https://github.com/user-attachments/assets/e71af9e1-2606-4741-8cf4-9259e6346519
+https://github.com/user-attachments/assets/71ce4bfb-33df-424c-8530-d42f99aab817
 
 
 Реализовать можно на любом языке программирования.
