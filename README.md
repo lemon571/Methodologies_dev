@@ -5,8 +5,7 @@
 
 Asciinema:
 
-
-https://asciinema.org/a/He5rVcz8bW52oxCjCFcsN4FGo
+<a href="https://asciinema.org/a/He5rVcz8bW52oxCjCFcsN4FGo" target="_blank"><img src="https://asciinema.org/a/He5rVcz8bW52oxCjCFcsN4FGo.svg" /></a>
 
 
 Реализовать можно на любом языке программирования.
