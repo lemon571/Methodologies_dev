@@ -1,5 +1,5 @@
 const { greetUser } = require("../scr/cli.js")
-const { playNokGame } = require("../games/brain-scm.js")
+const { playNokGame } = require("../games/brain-nok.js")
 const { playProgressionGame } = require("../games/brain-progression.js")
 const prompt = require("prompt-sync")();
 
