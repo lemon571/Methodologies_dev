@@ -13,9 +13,9 @@ module.exports = {
       sourceType: 'module',  
     },
     plugins: [
-      '@typescript-eslint'  // Для TypeScript.
+      '@typescript-eslint' 
     ],
-    overrides: [ // Используем `overrides`, чтобы ESLint мог проверять файлы как JS, так и TS.
+    overrides: [ 
       {
         files: ['*.ts', '*.tsx'],
         extends: [
@@ -30,9 +30,9 @@ module.exports = {
     ],
     ignorePatterns: ['.eslintrc.js'],
     rules: {
-      quotes: ["error", "double"],  // Использовать двойные кавычки.
-      semi: ["error", "always"],  // Всегда добавлять точку с запятой в конце утверждения.
-      indent: ["error", 2],  // Отступ — это два пробела.
-      "no-console": "error"  // Избегать использования в коде методов на консоли (`console`).
+      quotes: ["error", "double"],  
+      semi: ["error", "always"], 
+      indent: ["error", 2],  
+      "no-console": "error"  
     }
   }
