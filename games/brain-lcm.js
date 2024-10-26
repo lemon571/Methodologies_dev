@@ -1,8 +1,8 @@
 const { lcmOfArray } = require("./lcm.js");
-const {handleAnswer} = require("./check-answer.js");
+const { handleAnswer } = require("./check-answer.js");
 const prompt = require("prompt-sync")();
 
-const playLcmGame = function(userName) {
+const playLcmGame = (userName) => {
     console.log("You selected 'Find the smallest common multiple of given numbers'.");
 
     for (let round = 0; round < 3; round++) {
@@ -19,7 +19,6 @@ const playLcmGame = function(userName) {
         const userAnswer = parseInt(prompt());
         const correctAnswer = lcmOfArray(numbers);
         handleAnswer(userAnswer, correctAnswer, userName);
-        
     }
 }
 
