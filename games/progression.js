@@ -1,4 +1,4 @@
-const generateGeometricProgression = function() {
+const generateGeometricProgression = () => {
     const start = Math.floor(Math.random() * 10) + 1; 
     const ratio = Math.floor(Math.random() * 5) + 1; 
     const length = 10; 
