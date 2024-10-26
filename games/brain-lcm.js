@@ -17,6 +17,6 @@ const playLcmGame = (userName) => {
         const correctAnswer = lcmOfArray(numbers);
         handleAnswer(userAnswer, correctAnswer, userName);
     }
-}
+};
 
 module.exports = { playLcmGame };
