@@ -1,8 +1,8 @@
-const { lcmOfArray } = require("./nok.js");
+const { lcmOfArray } = require("./lcm.js");
 const {handleAnswer} = require("./check-answer.js");
 const prompt = require("prompt-sync")();
 
-const playNokGame = function(userName) {
+const playLcmGame = function(userName) {
     console.log("You selected 'Find the smallest common multiple of given numbers'.");
 
     for (let round = 0; round < 3; round++) {
@@ -23,4 +23,4 @@ const playNokGame = function(userName) {
     }
 }
 
-module.exports = { playNokGame };
+module.exports = { playLcmGame };
