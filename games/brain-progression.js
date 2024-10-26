@@ -1,6 +1,6 @@
+const prompt = require("prompt-sync")();
 const { generateGeometricProgression } = require("./progression.js");
 const { handleAnswer } = require("./check-answer.js");
-const prompt = require("prompt-sync")();
 
 const playProgressionGame = (userName) => {
     console.log("You selected 'What number is missing in the progression'.");
