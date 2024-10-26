@@ -1,12 +1,12 @@
-const checkAnswer = function(userAnswer, correctAnswer) {
+const checkAnswer = (userAnswer, correctAnswer) => {
     return userAnswer === correctAnswer;
 }
 
-const handleAnswer = function(userAnswer, correctAnswer, userName) {
+const handleAnswer = (userAnswer, correctAnswer, userName) => {
     if (checkAnswer(userAnswer, correctAnswer)) {
         console.log("Correct!");
     } else {
-        console.log(`Your answer: ${userAnswer}.\n It is wrong answer ;(\n Correct answer was ${correctAnswer}. Let's try again, ${userName}!`);
+        console.log(`Your answer: ${userAnswer}.\nIt is wrong answer ;(\nCorrect answer was ${correctAnswer}. Let's try again, ${userName}!`);
     }
 }
 
