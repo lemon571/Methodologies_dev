@@ -1,8 +1,8 @@
-function checkAnswer(userAnswer, correctAnswer) {
+const checkAnswer = function(userAnswer, correctAnswer) {
     return userAnswer === correctAnswer;
 }
 
-function handleAnswer(userAnswer, correctAnswer, userName) {
+const handleAnswer = function(userAnswer, correctAnswer, userName) {
     if (checkAnswer(userAnswer, correctAnswer)) {
         console.log("Correct!");
     } else {
