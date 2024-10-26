@@ -7,12 +7,13 @@ const generateGeometricProgression = () => {
     for (let i = 0; i < length; i++) {
         progression.push(start * Math.pow(ratio, i));
     }
-
+    
     const missingIndex = Math.floor(Math.random() * length);
     const missingValue = progression[missingIndex];
+    
     progression[missingIndex] = '..'; 
 
     return { progression, missingValue };
-}
+};
 
 module.exports = { generateGeometricProgression };
